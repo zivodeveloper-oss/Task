@@ -1,66 +1,27 @@
 {
-  "id": "/?source=pwa",
   "name": "Zivo Tasks",
   "short_name": "Zivo Tasks",
   "description": "Plan smart. Focus on what matters. Finish strong. A fast, offline-first task manager.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
-  "orientation": "any",
-  "background_color": "#07111f",
-  "theme_color": "#07111f",
-  "categories": [
-    "productivity",
-    "utilities"
-  ],
+  "background_color": "#060d18",
+  "theme_color": "#060d18",
   "icons": [
     {
-      "src": "icon-192.png",
+      "src": "./icons/icon-64.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "./icons/icon-192.png",
       "sizes": "192x192",
-      "type": "image/png",
-      "purpose": "any"
+      "type": "image/png"
     },
     {
-      "src": "icon-512.png",
+      "src": "./icons/icon-512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any"
-    },
-    {
-      "src": "icon-512-maskable.png",
-      "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "maskable"
-    }
-  ],
-  "screenshots": [
-    {
-      "src": "screenshot-wide.png",
-      "sizes": "1280x720",
-      "type": "image/png",
-      "form_factor": "wide",
-      "label": "Zivo Tasks desktop workspace"
-    },
-    {
-      "src": "screenshot-mobile.png",
-      "sizes": "720x1280",
-      "type": "image/png",
-      "form_factor": "narrow",
-      "label": "Zivo Tasks mobile view"
-    }
-  ],
-  "shortcuts": [
-    {
-      "name": "Add a task",
-      "short_name": "New Task",
-      "description": "Quickly add a new task to Zivo Tasks",
-      "url": "./index.html#title",
-      "icons": [
-        {
-          "src": "icon-192.png",
-          "sizes": "192x192"
-        }
-      ]
+      "type": "image/png"
     }
   ]
 }
